@@ -18,7 +18,7 @@ export default function Hero() {
         <div className="mt-8 flex flex-wrap justify-center gap-4">
 
           <a
-            href="https://github.com/YOUR_USERNAME"
+            href="https://github.com/ifeoma-git"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-black text-white px-6 py-3 rounded-xl hover:opacity-80"
@@ -27,7 +27,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="https://linkedin.com/in/YOUR_LINKEDIN"
+            href="https://linkedin.com/in/ifeomaonyenwenwankwo"
             target="_blank"
             rel="noopener noreferrer"
             className="border px-6 py-3 rounded-xl hover:bg-gray-100"
