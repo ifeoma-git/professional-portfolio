@@ -8,15 +8,19 @@ import Contact from "./pages/Contact";
 
 export default function App() {
   return (
-    <>
+    <div className="min-h-screen bg-gray-50 text-gray-900">
+
+      {/* Global Navigation */}
       <Navbar />
 
+      {/* Main Routes */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </>
+
+    </div>
   );
 }
